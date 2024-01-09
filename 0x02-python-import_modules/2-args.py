@@ -2,9 +2,9 @@
 if __name__ == "__main__":
     import sys
 
-    args = sys.argv[1:]
-    print("{:d} arguments".format(len(args) - 1))
+    argv = sys.argv[1:]
+    print("{:d} arguments".format(len(argv)))
     count = 1
-    for arg in args:
+    for arg in argv:
         print("{:d}: {:s}".format(count, arg))
         count += 1
